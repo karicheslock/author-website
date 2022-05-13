@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Dashboard from './Dashboard';
+import SeasonedWitch from './pages/SeasonedWitch';
+import HauntingElloryMay from './pages/HauntingElloryMay';
+import Seer from './pages/Seer';
+import Spellbound from './pages/Spellbound';
+import Spirit from './pages/Spirit';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/seasoned-witch" element={<SeasonedWitch />} />
+        <Route path="/haunting-ellory-may" element={<HauntingElloryMay />} />
+        <Route path="/seer" element={<Seer />} />
+        <Route path="/spellbound" element={<Spellbound />} />
+        <Route path="/spirit" element={<Spirit />} />
+      </Routes>
+    </Router>
   );
 }
 
