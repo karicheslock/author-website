@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bookmark {
+    background-image: url("../public/images/SeasonWitch003.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
+.bookmark-text {
+    transform: rotate(-90deg);
+    font-family: 'IM Fell English SC', serif;
+}
