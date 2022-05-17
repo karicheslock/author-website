@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import ReactToPrint from 'react-to-print';
 
-function SeasonedWitchBookmark() {
+function ElloryMayBookmark() {
 
   let componentRef = useRef();
 
@@ -18,8 +18,8 @@ function SeasonedWitchBookmark() {
             @page { size: portrait; }\
             "}</style>
           <div className='container flex items-center justify-center mt-12'>
-              <div className='bookmark-witch flex flex-col w-[175px] h-[800px] border-4 border-gray-500'>
-                  <p className='bookmark-text-witch text-amber-50 mt-auto mb-28 text-7xl whitespace-nowrap'>The Seasoned Witch</p>
+              <div className='bookmark-ellory flex flex-col w-[175px] h-[800px] border-4 border-gray-500'>
+                  <p className='bookmark-text-ellory text-amber-50 mt-auto mb-28 text-5xl whitespace-nowrap'>The Haunting of Ellory May</p>
               </div>
           </div>
       </div>
@@ -28,4 +28,4 @@ function SeasonedWitchBookmark() {
 }
 
 
-export default SeasonedWitchBookmark;
+export default ElloryMayBookmark;
