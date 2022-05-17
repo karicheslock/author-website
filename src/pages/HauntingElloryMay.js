@@ -1,5 +1,8 @@
 import ElloryMayBookmark from "../printComponents/ElloryMayBookmark";
-
+import ElloryMayFirstFloor from "../printComponents/ElloryMayFirstFloor";
+import ElloryMaySecondFloor from "../printComponents/ElloryMaySecondFloor";
+import ElloryMayAttic from "../printComponents/ElloryMayAttic";
+import ElloryMayPoster from "../printComponents/ElloryMayPoster";
 
 function HauntingElloryMay() {
     
@@ -12,21 +15,28 @@ function HauntingElloryMay() {
                 <ElloryMayBookmark />
             </div>
             <div className='flex flex-col'>
-                <div className='mx-2 border-amber-900 border-4 rounded bg-amber-50 h-fit p-2'>
+                <div className='mx-2 border-amber-900 border-4 rounded bg-amber-50 h-fit p-2 mb-4'>
                     <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1'>Synopsis</p>
-                    <p className='font-mono mt-4'>Samantha Walker just had one of the worst days of her life.  She lost her restaurant, her boyfriend and her best friend all in the same day.  But as she was digging through the rubble of her burnt out restaurant, she found something.  
-                    A hidden room.  And that room held magic.  Literal magic.  She didn&apos;t know it at first, but she had stumbled on a powerful collection of magical grimoires that had been missing for ages.  Lots of people had been looking for them.  
-                    And it will be up to Samantha to determine who is seeking them for good.  And who has darker motives.</p>
-                    <p className='font-mono mt-4'>Follow Samantha on her magical journey as she learns to harness her innate magical abilities.  The same abilities that made her a natural chef and led to her owning an award-winning restaurant.  If she can balance the magical world with 
-                    her every day life, she may just come up with an epically powerful combination - a restaurant of deliciously magical proportions.</p>
+                    <p className='font-mono mt-4'>Ellory May was feeling pretty lucky.  She had just inherited a gorgeous house and a tidy sum of money from a great aunt that she didn&apos;t even know existed.  And the house itself was a writer&apos;s paradise.    
+                    At last, she may be able to settle in and focus on her work.  But after she moves in, strange things start happening.  Doors open by themselves, objects are moved around or dropped on the floor, and phantom music sometimes plays in the hallway.  
+                    And to top it all off, she&apos;s hearing voices.  Voices that tell her to do things, investigate things in the house.</p>
+                    <p className='font-mono mt-4'>Can Ellory figure out what the house is trying to communicate to her?  Is there really a mystery to solve here?  Could she be in danger?  She better find out before it&apos;s too late.</p>
                 </div>
-                <div className='flex flex-col bg-amber-50 p-4 border-4 border-amber-900 rounded mx-2 mt-2'>
-                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Sample Menu from Samantha&apos;s Restaurant, Craft and Brew</p>
-                    
+                <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4'>
+                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Ellory&apos;s hand-drawn map of the first floor of Willow&apos;s house</p>
+                    <ElloryMayFirstFloor />
                 </div>
-                <div className='flex flex-col bg-amber-50 p-4 border-4 border-amber-900 rounded mx-2 mt-2'>
-                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Excerpt from Millicent Willoughby&apos;s Grimoire</p>
-                    
+                <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4'>
+                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Ellory&apos;s hand-drawn map of the second floor of Willow&apos;s house</p>
+                    <ElloryMaySecondFloor />
+                </div>
+                <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4'>
+                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Ellory&apos;s hand-drawn map of the attic of Willow&apos;s house</p>
+                    <ElloryMayAttic />
+                </div>
+                <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4'>
+                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>A poster for Willow&apos;s television show Night Bites</p>
+                    <ElloryMayPoster />
                 </div>
             </div>
         </div>

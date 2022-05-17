@@ -22,7 +22,7 @@ function SeasonedWitch() {
                     her every day life, she may just come up with an epically powerful combination - a restaurant of deliciously magical proportions.</p>
                 </div>
                 <div className='flex flex-col bg-amber-50 p-4 border-4 border-amber-900 rounded mx-2 mt-2'>
-                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Sample Menu from Samantha&apos;s Restaurant, Craft and Brew</p>
+                    <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Sample Menu from Samantha&apos;s Restaurant, Concoctions</p>
                     <SeasonedWitchSampleMenu />
                 </div>
                 <div className='flex flex-col bg-amber-50 p-4 border-4 border-amber-900 rounded mx-2 mt-2'>
