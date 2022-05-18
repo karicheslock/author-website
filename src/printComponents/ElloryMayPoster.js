@@ -36,7 +36,7 @@ function ElloryMayPoster() {
                 <div class="tear"></div>
               </div>
               <img src='../images/vampire-bite.jpg' alt='A vampire bite on a neck' className='w-1/2 rounded mt-4 mb-4' />
-              <p className='text-red-500 text-xl'>Premiering this fall on NBC</p>
+              <p className='text-red-500 text-xl'>Premiering this fall on your favorite television channel</p>
            </div>
       </div>
     </div>

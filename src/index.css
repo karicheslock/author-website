@@ -16,13 +16,26 @@
     background-size: 175px 200px;
 }
 
+.bookmark-seer {
+    background-image: url("../public/images/seer.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
 .bookmark-text-witch {
     transform: rotate(-90deg);
     font-family: 'IM Fell English SC', serif;
 }
+
 .bookmark-text-ellory {
     transform: rotate(-90deg);
     font-family: 'Fredericka the Great', cursive;
+}
+
+.bookmark-text-seer {
+    transform: rotate(-90deg);
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 .menu {
