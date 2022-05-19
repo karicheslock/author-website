@@ -1,15 +1,21 @@
+import { useEffect } from "react";
 import ElloryMayBookmark from "../printComponents/ElloryMayBookmark";
 import ElloryMayFirstFloor from "../printComponents/ElloryMayFirstFloor";
 import ElloryMaySecondFloor from "../printComponents/ElloryMaySecondFloor";
 import ElloryMayAttic from "../printComponents/ElloryMayAttic";
 import ElloryMayPoster from "../printComponents/ElloryMayPoster";
+import Navbar from "../components/Navbar";
 
 function HauntingElloryMay() {
     
+    useEffect(() => {
+        document.title = 'The Haunting of Ellory May - by C.K. Brandywine'
+    }, []);
 
   return (
     <div className='container flex flex-col px-4 pt-4 bg-green-900 items-center mx-auto'>
-        <p className='text-center border-4 border-amber-900 rounded bg-amber-50 font-mono text-amber-900 font-bold text-5xl p-8 mb-4'>The Haunting of Ellory May <br /> <span className='text-3xl text-green-900'>by C.K. Brandywine</span></p>
+        <Navbar />
+        <p className='text-center border-4 border-amber-900 rounded bg-amber-50 font-mono text-amber-900 font-bold text-5xl py-8 px-36 mb-4 mt-2'>The Haunting of Ellory May <br /> <span className='text-3xl text-green-900'>by C.K. Brandywine</span></p>
         <div className='flex'>
              <div className='flex flex-col items-center bg-amber-50 p-4 border-4 border-amber-900 rounded w-1/4'>
                 <ElloryMayBookmark />

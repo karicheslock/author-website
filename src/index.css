@@ -23,6 +23,20 @@
     background-size: 175px 200px;
 }
 
+.bookmark-spellbound {
+    background-image: url("../public/images/spellbound.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
+.bookmark-spirit {
+    background-image: url("../public/images/spirit.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
 .bookmark-text-witch {
     transform: rotate(-90deg);
     font-family: 'IM Fell English SC', serif;
@@ -36,6 +50,16 @@
 .bookmark-text-seer {
     transform: rotate(-90deg);
     font-family: 'Mountains of Christmas', cursive;
+}
+
+.bookmark-text-spellbound {
+    transform: rotate(-90deg);
+    font-family: 'Macondo', cursive;
+}
+
+.bookmark-text-spirit {
+    transform: rotate(-90deg);
+    font-family: 'Nosifer', cursive;
 }
 
 .menu {
