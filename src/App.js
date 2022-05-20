@@ -8,7 +8,6 @@ import Spirit from './pages/Spirit';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Newsletters from './components/Newsletters';
-import KindleVella from './pages/KindleVella';
 import MailChimpFormContainer from './components/MailChimpFormContainer';
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/newsletters" element={<Newsletters />} />
-        <Route path="/kindle-vella" element={<KindleVella />} />
         <Route path="/subscribe" element={<MailChimpFormContainer />} />
       </Routes>
     </Router>

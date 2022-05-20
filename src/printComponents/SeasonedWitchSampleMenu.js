@@ -18,7 +18,7 @@ function SeasonedWitchSampleMenu() {
             @page { size: landscape; }\
             "}</style>
             <div className="menu container flex flex-col border-4 border-slate-700 border-double bg-amber-50 mt-4 w-11/12 mx-auto p-1">
-                <p className="text-center text-3xl p-1">Concoctions</p>
+                <p className="text-center text-3xl p-1">Concoction</p>
                 <div className='flex justify-between'>
                     <div className='flex flex-col px-2'>
                         <p className='text-xl font-bold tracking-wide p-1 mb-4'>Appetizers</p>

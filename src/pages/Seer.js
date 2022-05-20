@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import SeerBookmark from "../printComponents/SeerBookmark";
+import SeerDrawingOne from "../printComponents/SeerDrawingOne";
+import SeerDrawingTwo from "../printComponents/SeerDrawingTwo";
+import SeerDrawingThree from "../printComponents/SeerDrawingThree";
 import Navbar from "../components/Navbar";
 
 function Seer() {
@@ -28,15 +31,15 @@ function Seer() {
                 <div className="flex">
                     <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>One of Cindy&apos;s drawings</p>
-                        
+                        <SeerDrawingOne />
                     </div>
                     <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>One of Cindy&apos;s drawings</p>
-                        
+                        <SeerDrawingTwo />
                     </div>
                     <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>One of Cindy&apos;s drawings</p>
-                        
+                        <SeerDrawingThree />
                     </div>
                 </div>
             </div>
