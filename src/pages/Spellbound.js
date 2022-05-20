@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import SpellboundBookmark from "../printComponents/SpellboundBookmark";
+import SpellboundQuest from "../printComponents/SpellboundQuest";
+import SpellboundRulebook from "../printComponents/SpellboundRulebook";
 import Navbar from "../components/Navbar";
 
 function Spellbound() {
@@ -27,13 +29,13 @@ function Spellbound() {
                     <p className="font-mono mt-4">Willow quickly learns that this land has created a game for her, a game like her tapletop RPGs that she loved so much.  But the stakes are much higher here.  And she must play along if she wants to return home.</p>
                 </div>
                 <div className="flex">
-                    <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
+                    <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/2 p-2'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>A page from the Spellbound Rulebook</p>
-                        
+                      <SpellboundRulebook />  
                     </div>
-                    <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
+                    <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/2 p-2'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>An example quest, as dictated by Queen Maribel</p>
-                        
+                        <SpellboundQuest />
                     </div>
                 </div>
             </div>

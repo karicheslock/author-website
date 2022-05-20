@@ -17,7 +17,7 @@ function SeasonedWitchGrimoireExcerpt() {
         <style type="text/css" media="print">{"\
             @page { size: landscape; }\
             "}</style>
-            <div className="excerpt container flex flex-col border-4 border-slate-700 border-double bg-amber-50 mt-4 w-1/2 mx-auto p-2 items-center bg-gray-50 underline underline-offset-2 decoration-red-300 decoration-wavy">
+            <div className="excerpt container flex flex-col border-4 border-slate-700 border-double mt-4 w-1/2 mx-auto p-2 items-center bg-gray-50 underline underline-offset-2 decoration-red-300 decoration-wavy">
                 <p className="text-center text-3xl p-1 font-bold">Health Concoxion</p>
                 <div className='flex justify-between'>
                     <div className='text-xl tracking-wide font-bold p-2'>
