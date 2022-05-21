@@ -9,7 +9,7 @@ function Navbar() {
             <div className='flex justify-between'>
                 <a href="https://www.facebook.com/CKBrandywine" className="text-amber-50" target="_blank" rel="noreferrer"><FaFacebookF /></a>
                 <a href="https://www.instagram.com/ckbrandywine" className="text-amber-50" target="_blank" rel="noreferrer"><FaInstagram /></a>
-                <a href="https://www.twitter.com/ckbrandywine" className="text-amber-50" target="_blank" rel="noreferrer"><FaTwitter /></a>
+                <a href="https://www.twitter.com/ckbrandywine1" className="text-amber-50" target="_blank" rel="noreferrer"><FaTwitter /></a>
             </div>
         </div>
     </div>
