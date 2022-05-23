@@ -4,9 +4,9 @@ import RightSidebar from "../components/RightSidebar";
 
 function About() {
   return (
-    <div className="container flex flex-col justify-items items-center mx-auto">
+    <div className="container flex flex-col justify-items items-center mx-auto w-screen">
           <Navbar />
-          <div className="flex justify-between w-screen h-screen">
+          <div className="flex justify-between h-screen">
             <LeftSidebar />
             <div className="bg-green-900 w-full">
                 <div className="bg-amber-50 font-mono m-8 p-2 border-2 rounded border-amber-900">

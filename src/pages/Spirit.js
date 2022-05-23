@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import SpiritBookmark from "../printComponents/SpiritBookmark";
 import SpiritNotebook from "../printComponents/SpiritNotebook";
+import SpiritPhonePic from "../printComponents/SpiritPhonePic";
 import Navbar from "../components/Navbar";
 
 function Spirit() {
@@ -31,7 +32,7 @@ function Spirit() {
                 <div className="flex">
                     <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>Micah&apos;s picture from Jasmine&apos;s bedroom</p>
-                        
+                        <SpiritPhonePic />
                     </div>
                     <div className='flex flex-col bg-amber-50 border-4 border-amber-900 rounded mx-2 mb-4 w-1/3'>
                         <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1 p-2'>A page from Meredith&apos;s channeling notebook</p>
