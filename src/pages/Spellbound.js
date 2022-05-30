@@ -13,7 +13,8 @@ function Spellbound() {
   return (
     <div className='container flex flex-col px-4 pt-4 bg-green-900 items-center mx-auto'>
       <Navbar />
-        <p className='text-center border-4 border-amber-900 rounded bg-amber-50 font-mono text-amber-900 font-bold text-5xl py-8 px-24 mb-4 mt-2'>Spellbound: Tales of Myst Haven <br /> <span className='text-3xl text-green-900'>by C.K. Brandywine</span></p>
+        <p className='text-center border-4 border-amber-900 rounded bg-amber-50 font-mono text-amber-900 font-bold text-5xl py-8 px-24 mb-4 mt-2'>Spellbound: Tales of Myst Haven <br /> <span className='text-3xl text-green-900'>by C.K. Brandywine</span> <br />
+        <span className="text-3xl">Click <a href="https://www.amazon.com/kindle-vella/story/B0B2BWFF2H" target="_blank" rel="noreferrer" className="text-green-900 hover:text-4xl">here</a> to follow this story!</span></p>
         <div className='flex'>
              <div className='flex flex-col items-center bg-amber-50 p-4 border-4 border-amber-900 rounded w-1/4'>
                 <SpellboundBookmark />
