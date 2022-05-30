@@ -28,7 +28,7 @@ export const bookData = [
         link: "/spellbound"
     },
     {
-        title: "S.P.I.R.I.T. Paranormal Investigators",
+        title: "The S.P.I.R.I.T. Adventures",
         author: "C.K. Brandywine",
         description: "A motley crew of ghost hunters with a talent for seeing the other side try to help a single woman and her young daughter with their haunted house.  But is there more to this than meets the eye?  Some of the things that are happening just don't make sense.",
         image: "../images/spirit-wtitle.png",
