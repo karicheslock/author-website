@@ -35,3 +35,10 @@ export const bookData = [
         link: "/spirit"
     }
 ]
+
+export const newsletterData = [
+    {
+        title: "Issue the First",
+        link: "/newsletter1"
+    }
+]
