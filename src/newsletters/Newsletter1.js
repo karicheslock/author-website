@@ -84,6 +84,7 @@ function Newsletter1() {
                 <p className="mb-4 mt-4 leading-7">And that&apos;s it!  I hope you&apos;ve enjoyed my first ever newsletter.  Happy reading!</p>
                 <p className="mt-4 leading-7">May you always feel your Muse's hand on your shoulder,</p>
                 <p>C.K.</p>
+                <p>June 1, 2022</p>
             </div>
         </div>
     </div>
