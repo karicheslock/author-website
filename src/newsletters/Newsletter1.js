@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import {FaFacebookF, FaInstagram, FaTwitter} from 'react-icons/fa';
+import {Adsense} from '@ctrl/react-adsense';
 
 function Newsletter1() {
   return (
@@ -87,6 +88,10 @@ function Newsletter1() {
                 <p>June 1, 2022</p>
             </div>
         </div>
+        <Adsense
+            client='ca-pub-7831705014229923'
+            slot='2895656225'
+        />
     </div>
   )
 }

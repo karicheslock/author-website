@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import {init} from '@emailjs/browser';
+import {Adsense} from '@ctrl/react-adsense';
 init('Mbwt4vW-MzWmgu5fi');
 
 const SERVICE_ID = 'service_ob5cpyo';
@@ -23,6 +24,10 @@ export default function Contact() {
     return (
         
         <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap bg-green-900 h-screen'>
+            <Adsense
+                client='ca-pub-7831705014229923'
+                slot='2895656225'
+            />
             <form
                 netlify='true'
                 name='contact'

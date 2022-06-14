@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import LeftSidebar from "../components/LeftSidebar";
 import RightSidebar from "../components/RightSidebar";
+import {Adsense} from '@ctrl/react-adsense';
 
 function About() {
   return (
@@ -20,7 +21,10 @@ function About() {
             </div>
             <RightSidebar />
           </div>
-          
+          <Adsense
+            client='ca-pub-7831705014229923'
+            slot='2895656225'
+          />
       </div>
   )
 }
