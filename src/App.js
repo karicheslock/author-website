@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Newsletters from './components/Newsletters';
 import MailChimpFormContainer from './components/MailChimpFormContainer';
 import Newsletter1 from './newsletters/Newsletter1';
+import Newsletter2 from './newsletters/Newsletter2';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/newsletters" element={<Newsletters />} />
         <Route path="/subscribe" element={<MailChimpFormContainer />} />
         <Route path='/newsletter1' element={<Newsletter1 />} />
+        <Route path='/newsletter2' element={<Newsletter2 />} />
       </Routes>
     </Router>
   );
