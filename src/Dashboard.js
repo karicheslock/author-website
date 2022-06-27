@@ -7,9 +7,9 @@ import {Adsense} from '@ctrl/react-adsense';
 
 function Dashboard() {
   return (
-      <div className="container flex flex-col justify-items items-center mx-auto w-screen">
+      <div className="container flex flex-col justify-items items-center mx-auto w-full">
           <Navbar />
-          <div className="flex justify-between w-screen">
+          <div className="flex justify-between w-full">
             <LeftSidebar />
             <div className="bg-green-900 w-full">
                 <div className="flex flex-col justify-items items-center mx-auto bg-amber-50 max-w-5xl mt-2 border-4 border-amber-900 rounded font-mono text-xl px-2">
