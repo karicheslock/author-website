@@ -23,7 +23,7 @@ function About() {
           </div>
           <Adsense
             client='ca-pub-7831705014229923'
-            slot='2895656225'
+            slot='4798207906'
           />
       </div>
   )
