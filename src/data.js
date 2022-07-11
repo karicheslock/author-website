@@ -33,6 +33,13 @@ export const bookData = [
         description: "A motley crew of ghost hunters with a talent for seeing the other side try to help a single woman and her young daughter with their haunted house.  But is there more to this than meets the eye?  Some of the things that are happening just don't make sense.",
         image: "../images/spirit-wtitle.png",
         link: "/spirit"
+    },
+    {
+        title: "***Coming Soon***: The Lycan Saga",
+        author: "C.K. Brandywine",
+        description: "A generations-old pack of werewolves living in virtual exile along the southern end of the Appalachian Trail constantly clashes with the locals over whether or not they have the right to exist.  The two factions had been coexisting in peace for generations.  Until a local girl goes missing.",
+        image: "",
+        link: "/lycan-saga"
     }
 ]
 
