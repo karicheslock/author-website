@@ -37,6 +37,13 @@
     background-size: 175px 200px;
 }
 
+.bookmark-lycan {
+    background-image: url("../public/images/LycanSaga.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
 .bookmark-text-witch {
     transform: rotate(-90deg);
     font-family: 'IM Fell English SC', serif;
@@ -60,6 +67,11 @@
 .bookmark-text-spirit {
     transform: rotate(-90deg);
     font-family: 'Nosifer', cursive;
+}
+
+.bookmark-text-lycan {
+    transform: rotate(-90deg);
+    font-family: 'Permanent Marker', cursive;
 }
 
 .menu {
