@@ -3,7 +3,6 @@ import LeftSidebar from "./components/LeftSidebar";
 import RightSidebar from "./components/RightSidebar";
 import {Link} from 'react-router-dom';
 import {bookData} from './data';
-import {Adsense} from '@ctrl/react-adsense';
 
 function Dashboard() {
   return (
@@ -38,10 +37,6 @@ function Dashboard() {
             </div>
             <RightSidebar />
           </div>
-        <Adsense
-            client='ca-pub-7831705014229923'
-            slot='4798207906'
-        />
       </div>
   )
 }

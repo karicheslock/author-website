@@ -3,7 +3,6 @@ import SeasonedWitchBookmark from "../printComponents/SeasonedWitchBookmark";
 import SeasonedWitchSampleMenu from '../printComponents/SeasonedWitchSampleMenu';
 import SeasonedWitchGrimoireExcerpt from "../printComponents/SeasonedWitchGrimoireExcerpt";
 import Navbar from "../components/Navbar";
-import {Adsense} from '@ctrl/react-adsense';
 
 function SeasonedWitch() {
     
@@ -40,10 +39,6 @@ function SeasonedWitch() {
                 </div>
             </div>
         </div>
-        <Adsense
-            client='ca-pub-7831705014229923'
-            slot='4798207906'
-        />
     </div>
   )
 }

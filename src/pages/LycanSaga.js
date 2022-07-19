@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import LycanBookmark from "../printComponents/LycanBookmark";
-import {Adsense} from '@ctrl/react-adsense';
 
 function LycanSaga() {
 
@@ -24,10 +23,6 @@ function LycanSaga() {
                 </div>
             </div>
         </div>
-        <Adsense
-            client='ca-pub-7831705014229923'
-            slot='4798207906'
-        />
     </div>
   )
 }

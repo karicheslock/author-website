@@ -3,7 +3,6 @@ import SpellboundBookmark from "../printComponents/SpellboundBookmark";
 import SpellboundQuest from "../printComponents/SpellboundQuest";
 import SpellboundRulebook from "../printComponents/SpellboundRulebook";
 import Navbar from "../components/Navbar";
-import {Adsense} from '@ctrl/react-adsense';
 
 function Spellbound() {
 
@@ -42,10 +41,6 @@ function Spellbound() {
                 </div>
             </div>
         </div>
-        <Adsense
-            client='ca-pub-7831705014229923'
-            slot='4798207906'
-        />
     </div>
   )
 }

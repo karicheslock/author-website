@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom';
 import { newsletterData } from '../data';
-import {Adsense} from '@ctrl/react-adsense';
 
 function Newsletters() {
   return (
@@ -16,10 +15,6 @@ function Newsletters() {
               ))}
             </div>
         </div>
-        <Adsense
-            client='ca-pub-7831705014229923'
-            slot='4798207906'
-        />
     </div>
   )
 }

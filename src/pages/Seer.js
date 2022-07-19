@@ -4,7 +4,6 @@ import SeerDrawingOne from "../printComponents/SeerDrawingOne";
 import SeerDrawingTwo from "../printComponents/SeerDrawingTwo";
 import SeerDrawingThree from "../printComponents/SeerDrawingThree";
 import Navbar from "../components/Navbar";
-import {Adsense} from '@ctrl/react-adsense';
 
 function Seer() {
     
@@ -46,10 +45,6 @@ function Seer() {
                 </div>
             </div>
         </div>
-        <Adsense
-            client='ca-pub-7831705014229923'
-            slot='4798207906'
-        />
     </div>
   )
 }
