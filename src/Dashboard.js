@@ -6,7 +6,7 @@ import {bookData} from './data';
 
 function Dashboard() {
   return (
-      <div className="container flex flex-col justify-items items-stretch mx-auto w-full">
+      <div className="container flex flex-col justify-items items-stretch mx-auto w-screen">
           <div className="mx-auto">
             <Navbar />
           </div>
