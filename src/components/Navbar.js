@@ -2,7 +2,7 @@ import {FaFacebookF, FaInstagram, FaTwitter} from 'react-icons/fa';
 
 function Navbar() {
   return (
-    <div className="container flex h-24 items-center bg-green-900 font-mono border-l-8 border-r-8 border-b-8 border-amber-900 w-full min-w-750">
+    <div className="container flex h-24 items-center bg-green-900 font-mono border-l-8 border-r-8 border-b-8 border-amber-900 w-full min-w-750 px-50">
         <p className="mx-auto underline underline-offset-8 decoration-amber-900 decoration-double decoration-4 text-amber-50 font-bold tracking-wide text-3xl">The Works of C.K. Brandywine</p>
         <div className='mr-4 flex flex-col'>
             <p className='text-amber-50 mb-1'>Follow me</p>
