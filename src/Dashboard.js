@@ -8,7 +8,7 @@ function Dashboard() {
   return (
       <div className="container flex flex-col justify-items items-stretch mx-auto w-full">
           <Navbar />
-          <div className="flex justify-between w-full">
+          <div className="flex justify-between">
             <LeftSidebar />
             <div className="bg-green-900 w-full">
                 <div className="flex flex-col justify-items items-center mx-auto bg-amber-50 max-w-5xl mt-2 border-4 border-amber-900 rounded font-mono text-xl px-2">
