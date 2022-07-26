@@ -55,5 +55,9 @@ export const newsletterData = [
     {
         title: "Issue the Third",
         link: "/newsletter3"
+    },
+    {
+        title: "Issue the Fourth",
+        link: "/newsletter4"
     }
 ]
