@@ -35,9 +35,9 @@ export const bookData = [
         link: "/spirit"
     },
     {
-        title: "***Coming Soon***: The Lycan Saga",
+        title: "The Lycan Saga",
         author: "C.K. Brandywine",
-        description: "A generations-old pack of werewolves living in virtual exile along the southern end of the Appalachian Trail constantly clashes with the locals over whether or not they have the right to exist.  The two factions had been coexisting in peace for as long as anyone could remember.  Until a local girl goes missing.",
+        description: "A generations old pack of werewolves living on the southern end of the Appalachian trail tries to maintain its distance from the locals - the humans, that is - in an attempt to exist peacefully.  But their fragile sense of security is shattered when a local girl goes missing and the werewolves are the automatic suspects.",
         image: "../images/LycanSagaWithTitle.jpg",
         link: "/lycan-saga"
     }
