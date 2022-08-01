@@ -7,12 +7,14 @@ import {bookData} from './data';
 function Dashboard() {
   return (
     <div className="container">
-      <div className="flex flex-col justify-items w-screen sm:w-728px">
-    
+      <div className="flex flex-col justify-items w-screen">
+          <div>
             <Navbar />
-
+          </div>
           <div className="flex">
-            <LeftSidebar />
+            <div>
+              <LeftSidebar />
+            </div>
             <div className="bg-green-900">
                 <div className="flex flex-col justify-items items-center mx-auto bg-amber-50 max-w-5xl mt-2 border-4 border-amber-900 rounded font-mono text-xl px-2">
                     <p className="text-center mb-4">Welcome to the website for C. K. Brandywine!  Below you will find descriptions of my serialized stories currently available on Kindle Vella.</p>
@@ -38,7 +40,9 @@ function Dashboard() {
                     ))}
                 </div>
             </div>
-            <RightSidebar />
+            <div>
+              <RightSidebar />
+            </div>
           </div>
       </div>
     </div>
