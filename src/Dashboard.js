@@ -16,7 +16,7 @@ function Dashboard() {
               <LeftSidebar />
             </div>
             <div className="bg-green-900">
-                <div className="flex flex-col justify-items items-center mx-auto bg-amber-50 max-w-5xl mt-2 border-4 border-amber-900 rounded font-mono text-xl px-2">
+                <div className="flex flex-col justify-items items-center mx-auto bg-amber-50 w-96 max-w-5xl mt-2 border-4 border-amber-900 rounded font-mono text-xl px-2">
                     <p className="text-center mb-4">Welcome to the website for C. K. Brandywine!  Below you will find descriptions of my serialized stories currently available on Kindle Vella.</p>
                     <p className="text-center">Click on a card below for <span className="text-red-600 font-bold">🎉freebies🎉</span> and <span className="text-red-600 font-bold">🎉giveaways🎉</span> for each book.</p>
                     <p className="text-center mt-4">You will find a link to download a free bookmark and other items that go with each story.  Some items correspond to details in each story, but don&apos;t worry.</p>
