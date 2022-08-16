@@ -22,7 +22,7 @@ export default function Contact() {
 
     return (
         
-        <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap bg-green-900 h-screen'>
+        <div className='px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap bg-green-900 h-screen'>
             <form
                 netlify='true'
                 name='contact'

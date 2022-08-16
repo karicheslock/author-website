@@ -4,7 +4,7 @@ import RightSidebar from "../components/RightSidebar";
 
 function About() {
   return (
-    <div className="container flex flex-col justify-items items-center mx-auto w-screen">
+    <div className="flex flex-col justify-items items-center mx-auto w-screen">
           <Navbar />
           <div className="flex justify-between h-screen">
             <LeftSidebar />
