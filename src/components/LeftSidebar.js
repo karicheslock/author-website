@@ -8,6 +8,7 @@ function LeftSidebar() {
       <div className='mt-4'><Link to="/contact" target='blank' rel='noreferrer'>Contact the Author</Link></div>
       <div className='mt-4'><a href="https://www.amazon.com/s?k=c.k.+brandywine&rh=n%3A21165462011&ref=nb_sb_noss" target='blank' rel='noreferrer'>Find me on Kindle Vella</a></div>
       <div className='mt-4'><Link to="/newsletters" target='blank' rel='noreferrer'>Read Past Newsletters</Link></div>
+      <div className='mt-4'><a href="https://www.techradar.com/news/amazon-kindle-vella?fbclid=IwAR0ZRcm2ANBayElMsGywIvNeA7JDUpd649RMx1ednKryaQdvSL5JG7v-zlY" target='blank' rel='noreferrer'>Learn how Kindle Vella works</a></div>
     </div>
   )
 }
