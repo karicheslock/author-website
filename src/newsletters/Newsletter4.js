@@ -52,7 +52,7 @@ function Newsletter4() {
                     I love reading stories with a surprise twist.  It gets me thinking about my own writing and ways to improve it.  Anyway, check it out if you&apos;re looking for a good spooky story with some surprising feel good aspects to go along with it.
                 </p>
                 <p className=" mb-4 mt-4 text-2xl text-red-800 font-bold tracking-wide">What You&apos;re Writing</p>
-                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your create wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
+                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your creative wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
                 <div className="border-2 border-dashed bg-gray-50 p-4">
                     <p className="mb-4 mt-4 leading-7">The blinding sun distorted the chaos unfolding in front of me.</p>
                     <br />

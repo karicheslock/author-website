@@ -59,7 +59,7 @@ function Newsletter3() {
                     for a while - but I&apos;ll be done binging the show tonight.  I heard that the hotel that&apos;s featured in the third season is a lot cooler in the comics.  I can&apos;t wait to find out!
                 </p>
                 <p className=" mb-4 mt-4 text-2xl text-red-800 font-bold tracking-wide">What You&apos;re Writing</p>
-                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your create wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
+                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your creative wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
                 <div className="border-2 border-dashed bg-gray-50 p-4">
                     <p className="mb-4 mt-4 leading-7">Last night I dreamt of a different version of myself...</p>
                     <br />

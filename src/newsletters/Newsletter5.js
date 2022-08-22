@@ -51,7 +51,7 @@ function Newsletter5() {
                     girls have to try and find a way to live normal lives.  You will recognize the characters in this book pretty quickly if you&apos;ve spent countless hours watching horror films, and that&apos;s what makes this book so relatable.  I highly recommend it.
                 </p>
                 <p className=" mb-4 mt-4 text-2xl text-red-800 font-bold tracking-wide">What You&apos;re Writing</p>
-                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your create wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
+                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your creative wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
                 <div className="border-2 border-dashed bg-gray-50 p-4">
                     <p className="mb-4 mt-4 leading-7">The breath on the back of my neck was cold when it should have been hot.  All I could think to do was keep running.</p>
                     <br />

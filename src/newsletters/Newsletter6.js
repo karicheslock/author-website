@@ -49,7 +49,7 @@ function Newsletter6() {
                     to have nailed that concept.  It&apos;s really inspiring in terms of thinking more creatively about the world around you and different ways you can approach world building as a writer.  If a story becomes a living thing, then what happens?  It&apos;s a great concept.
                 </p>
                 <p className=" mb-4 mt-4 text-2xl text-red-800 font-bold tracking-wide">What You&apos;re Writing</p>
-                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your create wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
+                <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your creative wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
                 <div className="border-2 border-dashed bg-gray-50 p-4">
                     <p className="mb-4 mt-4 leading-7">I had been seeing shadows at the corners of my eyes for weeks now.  And then I decided to face one full on.</p>
                     <br />
