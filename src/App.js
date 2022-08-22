@@ -15,6 +15,7 @@ import Newsletter2 from './newsletters/Newsletter2';
 import Newsletter3 from './newsletters/Newsletter3';
 import Newsletter4 from './newsletters/Newsletter4';
 import Newsletter5 from './newsletters/Newsletter5';
+import Newsletter6 from './newsletters/Newsletter6';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path='/newsletter3' element={<Newsletter3 />} />
         <Route path='/newsletter4' element={<Newsletter4 />} />
         <Route path='/newsletter5' element={<Newsletter5 />} />
+        <Route path='/newsletter6' element={<Newsletter6 />} />
       </Routes>
     </Router>
   );
