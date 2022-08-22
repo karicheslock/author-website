@@ -51,7 +51,7 @@ function Newsletter6() {
                 <p className=" mb-4 mt-4 text-2xl text-red-800 font-bold tracking-wide">What You&apos;re Writing</p>
                 <p className="mb-4 mt-4 leading-7">And now it&apos;s your turn to write.  Here&apos;s another prompt to start your creative wheel turning.  Please find me on Facebook and post what you come up with.  I would love to read it!</p>
                 <div className="border-2 border-dashed bg-gray-50 p-4">
-                    <p className="mb-4 mt-4 leading-7">I had been seeing shadows at the corners of my eyes for weeks now.  And then I decided to face one full on.</p>
+                    <p className="mb-4 mt-4 leading-7">I had been seeing shadows at the corners of my eyes for weeks now.  And then I decided to face one head on.</p>
                     <br />
                     <p className="mb-4 mt-4 leading-7">Your story continues from here…</p>
                 </div>
