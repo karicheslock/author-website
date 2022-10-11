@@ -7,8 +7,8 @@ function Newsletter6() {
         <div className="w-4/5 mx-auto">
             <div className="flex items-center border-4 border-amber-900 bg-amber-50 p-4 mb-4">
                 <div className="flex items-center">
-                    <img src="../favicon.jpg" alt="The logo of C.K. Brandywine Publishing" className="w-1/12 rounded-full mr-4"></img>
-                    <p className="text-amber-900 font-bold text-3xl">C.K. Brandywine Publishing Newsletter</p>
+                    <img src="../favicon.jpg" alt="The logo of C.K. Brandywine Publishing" className="w-1/5 md:w-1/12 rounded-full mr-4"></img>
+                    <p className="text-amber-900 font-bold text-xl md:text-3xl">C.K. Brandywine Publishing Newsletter</p>
                 </div>
                 <div className='mr-4 flex flex-col whitespace-nowrap'>
                     <p className='text-amber-900 mb-2'>Follow me</p>
