@@ -9,8 +9,8 @@
     background-size: 175px 200px;
 }
 
-.bookmark-ellory {
-    background-image: url("../public/images/ellorymay.png");
+.bookmark-haunting {
+    background-image: url("../public/images/HauntingOfNewCoverCropped.jpg");
     background-repeat: repeat-y;
     background-size: cover;
     background-size: 175px 200px;
@@ -31,14 +31,35 @@
 }
 
 .bookmark-spirit {
-    background-image: url("../public/images/spirit.png");
+    background-image: url("../public/images/SpiritCoverFinal-team.jpg");
     background-repeat: repeat-y;
     background-size: cover;
     background-size: 175px 200px;
 }
 
 .bookmark-lycan {
-    background-image: url("../public/images/LycanSaga.jpg");
+    background-image: url("../public/images/Lycan02-greenremoved.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
+.bookmark-wordsmith {
+    background-image: url("../public/images/Journal01-1600.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
+.bookmark-zombies {
+    background-image: url("../public/images/ZombieCell04-Cartoon.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-size: 175px 200px;
+}
+
+.bookmark-faeries {
+    background-image: url("../public/images/fairywings003-green_cropped.jpg");
     background-repeat: repeat-y;
     background-size: cover;
     background-size: 175px 200px;
@@ -49,7 +70,7 @@
     font-family: 'IM Fell English SC', serif;
 }
 
-.bookmark-text-ellory {
+.bookmark-text-haunting {
     transform: rotate(-90deg);
     font-family: 'Fredericka the Great', cursive;
 }
@@ -74,28 +95,17 @@
     font-family: 'Permanent Marker', cursive;
 }
 
-.menu {
-    font-family: 'IM Fell English SC', serif;
+.bookmark-text-wordsmith {
+    transform: rotate(-90deg);
+    font-family: 'Mountains of Christmas', cursive;
 }
 
-.excerpt {
-    font-family: 'Ballet', cursive;
+.bookmark-text-zombie {
+    transform: rotate(-90deg);
+    font-family: 'Permanent Marker', cursive;
 }
 
-.poster {
-    font-family: 'Creepster', cursive;
-}
-
-.quest {
+.bookmark-text-faeries {
+    transform: rotate(-90deg);
     font-family: 'Macondo', cursive;
 }
-
-.tear {
-    width: 50px;
-    height: 50px;
-    border-radius: 0 50% 50% 50%;
-    border: 3px solid rgb(215, 46, 46);
-    transform: rotate(45deg);
-    margin-top: 20px;
-    background-color: rgb(215, 46, 46);
-  }

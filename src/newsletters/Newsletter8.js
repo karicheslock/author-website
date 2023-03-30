@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {FaFacebookF, FaInstagram, FaTwitter} from 'react-icons/fa';
+import {FaFacebookF, FaInstagram} from 'react-icons/fa';
 
 function Newsletter8() {
   return (
@@ -12,10 +12,9 @@ function Newsletter8() {
                 </div>
                 <div className='mr-4 flex flex-col whitespace-nowrap'>
                     <p className='text-amber-900 mb-2'>Follow me</p>
-                    <div className='flex justify-between'>
-                        <a href="https://www.facebook.com/CKBrandywine" className="text-amber-900" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+                    <div className='flex'>
+                        <a href="https://www.facebook.com/CKBrandywine" className="text-amber-900 mx-4" target="_blank" rel="noreferrer"><FaFacebookF /></a>
                         <a href="https://www.instagram.com/ckbrandywine" className="text-amber-900" target="_blank" rel="noreferrer"><FaInstagram /></a>
-                        <a href="https://www.twitter.com/ckbrandywine1" className="text-amber-900" target="_blank" rel="noreferrer"><FaTwitter /></a>
                     </div>
                 </div>
             </div>

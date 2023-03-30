@@ -19,7 +19,7 @@ function SpiritBookmark() {
             "}</style>
           <div className='container flex items-center justify-center mt-12'>
               <div className='bookmark-spirit flex flex-col w-[175px] h-[800px] border-4 border-gray-500'>
-                  <p className='bookmark-text-spirit text-amber-50 mt-auto mb-32 text-8xl whitespace-nowrap'>S.P.I.R.I.T.</p>
+                  <p className='bookmark-text-spirit text-amber-50 mt-auto mb-60 text-6xl whitespace-nowrap'>S.P.I.R.I.T.</p>
               </div>
           </div>
       </div>
