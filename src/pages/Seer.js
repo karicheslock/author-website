@@ -35,7 +35,7 @@ function Seer() {
                     <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1'>Synopsis</p>
                     <p className='font-mono mt-4'>Layla&apos;s adventures seeing dead people continue in this series. This time her best friend Caitlin is getting married and Layla is helping her plan the wedding. But while she is taking pictures of the venue, she notices a strange figure in one of them. It was a woman who had been murdered at that location and needed Layla's help to figure out what happened to her. Layla is happy to help and so is her police officer boyfriend Patrick. They'll just have to solve the case without ruining the wedding.</p>
                     <p className="font-mono font-bold tracking-wide text-2xl text-amber-900 mt-4">Click <a href="https://www.amazon.com/kindle-vella/story/B0BYY7QD6R" target="_blank" rel="noreferrer" className="text-green-900 hover:text-4xl">here</a> to follow this story on Kindle Vella.</p>
-                    <p className="font-mono font-bold tracking-wide text-2xl text-amber-900 mt-4">Completed novel comming soon!</p>
+                    <p className="font-mono font-bold tracking-wide text-2xl text-amber-900 mt-4">Completed novel coming soon!</p>
                 </div>
             </div>
         </div>
