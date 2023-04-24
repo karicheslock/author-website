@@ -23,7 +23,8 @@ function LycanSaga() {
                     <p className='font-mono font-bold tracking-wide text-xl text-green-900 underline underline-offset-1'>Synopsis</p>
                     <p className='font-mono mt-4'>The Montoro Clan is the oldest werewolf clan in the United States, residing at the southern end of the Appalachian Trail high in the mountains. Through the generations, they have maintained their distance from the humans, only dealing the occasional looky-loos or casually curious parties. The humans fear them and reject them for being different and so stay away from them as a matter of principle. But then a young human girl goes missing. And the shapeshifting beasts become the obvious suspects.</p>
                     <p className='text-amber-900 font-bold mt-4'><span className="text-2xl">Click <a href="https://www.amazon.com/kindle-vella/story/B0B83N5SP2" target="_blank" rel="noreferrer" className="text-green-900 hover:text-4xl">here</a> to follow this story on Kindle Vella.</span></p>
-                    <p className="text-2xl text-amber-900 font-bold mt-4">Completed novel coming soon!</p>
+                    <p className='text-amber-900 font-bold mt-4'><span className="text-2xl">Click <a href="https://www.amazon.com/dp/B0C2ST5XB7" target="_blank" rel="noreferrer" className="text-green-900 hover:text-4xl">here</a> to find the first book in the series on Kindle Unlimited or purchase in Kindle or paperback formats.</span></p>
+                    <p className="text-2xl text-amber-900 font-bold mt-4">**Please note that the content in the novels and on Kindle Vella are the same**</p>
                 </div>
                 <div className='mx-2 border-amber-900 border-4 rounded bg-amber-50 h-fit p-2 mb-4'>
                     <p className="font-mono font-bold tracking-wide text-2xl text-amber-900 mb-4">Book Two:  Wolf By Nature</p>
